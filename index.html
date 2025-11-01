@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGNREGA District Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MGNREGA District Dashboard</h1>
+        <div class="state-selector">
+            <label for="state-select">State choose karen:</label>
+            <select id="state-select">
+                <option value="UP">Uttar Pradesh</option>
+                <!-- Add more states as needed -->
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section class="district-section">
+            <label for="district-search">District search karen:</label>
+            <input type="text" id="district-search" placeholder="District naam type karen">
+            <select id="district-select">
+                <!-- Districts will be populated by JS -->
+            </select>
+        </section>
+
+        <section class="summary-section">
+            <div class="summary-card" id="workers-card">
+                <h2>Total workers this month</h2>
+                <p id="workers-number">--</p>
+                <p id="workers-sentence">Is mahine me -- logon ko kaam mila.</p>
+            </div>
+            <div class="summary-card" id="funds-card">
+                <h2>Total funds used</h2>
+                <p id="funds-number">--</p>
+                <p id="funds-sentence">Is mahine me -- rupaye kharch hue.</p>
+            </div>
+            <div class="summary-card" id="jobs-card">
+                <h2>Jobs created (month)</h2>
+                <p id="jobs-number">--</p>
+                <p id="jobs-sentence">Is mahine me -- logon ko kaam mila.</p>
+            </div>
+        </section>
+
+        <section class="chart-section">
+            <h2>Last 6 months jobs trend</h2>
+            <canvas id="trend-chart"></canvas>
+        </section>
+
+        <section class="comparison-section">
+            <h2>Top 5 districts in state</h2>
+            <ul id="top5-list">
+                <!-- Top 5 will be populated by JS -->
+            </ul>
+        </section>
+
+        <button id="read-aloud-btn">Read aloud (Hindi)</button>
+
+        <p class="data-source">Source: data.gov.in – MGNREGA API</p>
+        <p id="offline-message" class="hidden">Live data unavailable — showing last saved data.</p>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

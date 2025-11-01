@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "total_workers": 12345,
+      "total_funds": 567890,
+      "jobs_created": 12345,
+      "month": "2023-10",
+      "trend": [10000, 11000, 12000, 13000, 14000, 15000]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Aligarh",
+      "total_workers": 9876,
+      "total_funds": 456789,
+      "jobs_created": 9876,
+      "month": "2023-10",
+      "trend": [9000, 9500, 9800, 10000, 10500, 11000]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Allahabad",
+      "total_workers": 15000,
+      "total_funds": 678901,
+      "jobs_created": 15000,
+      "month": "2023-10",
+      "trend": [12000, 13000, 14000, 15000, 16000, 17000]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Ambedkar Nagar",
+      "total_workers": 5432,
+      "total_funds": 234567,
+      "jobs_created": 5432,
+      "month": "2023-10",
+      "trend": [5000, 5200, 5400, 5600, 5800, 6000]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Amethi",
+      "total_workers": 6789,
+      "total_funds": 345678,
+      "jobs_created": 6789,
+      "month": "2023-10",
+      "trend": [6000, 6200, 6400, 6600, 6800, 7000]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Amroha",
+      "total_workers": 4321,
+      "total_funds": 123456,
+      "jobs_created": 4321,
+      "month": "2023-10",
+      "trend": [4000, 4100, 4200, 4300, 4400, 4500]
+    }
+  ]
+}
